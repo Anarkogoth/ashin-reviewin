@@ -1,0 +1,97 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "SUSE", sans-serif;
+}
+
+header{
+    border-bottom: solid 2px rgb(255, 153, 233);
+    padding: 20px;
+    margin: 0px;
+    font-size: 32px;
+    color: rgb(255, 153, 233);
+}
+
+.chamada{
+background: rgb(65, 17, 70);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+border-bottom: solid 2px rgb(255, 153, 233);
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rebeccapurple;
+}
+
+.categoria-videos2{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos2 img{
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos2 img:hover{
+    opacity: 1.0;
+    border: 1px solid rebeccapurple;
+}
+
+.categoria{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.categoria2{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.categoria h2{
+    color: rgb(255, 153, 233);
+}
+
+.categoria2 h3{
+    color: rgb(255, 153, 233);
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    height: 200px;
+}
